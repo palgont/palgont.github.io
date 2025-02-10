@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu - Doughlicious</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Playwrite+IN:wght@100..400&display=swap"
+       rel="stylesheet">
+<style>
+        .content {
+        display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+        }
+        .img-container {
+                width:40%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+        }
+        .menu-table {
+                width: 30%;
+                border-collapse: collapse;
+        }
+        .menu-table th, .menu-table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .foods {
+            width: 100%;
+            display: block;
+            margin-bottom: 10px;
+        }
+</style>
+</head>
+<body>    
+        <header>
+                <div class="header">
+                        <a href="doughlicious.html">
+                                <img class="logo" src="doughlicious_logo.jpg">
+                        </a>
+                        <a href="doughlicious.html">
+                                <h1>Doughlicious </h1>
+                        </a>
+                </div>
+        </header>
+        <nav>
+                <div class="topnav">
+                        <a href="doughlicious.html">Home</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="menu.html">View Menu</a>
+                        <a href="about.html">About Us</a>
+                </div>
+        </nav>
+    <main class="content">
+        <!-- Menu Images -->
+        <div class="image-container">
+                <img class="foods" src="cheese.jpg">
+                <img class="foods" src="pepperoni.jpg">
+                <img class="foods" src="veggie.jpg">
+                <img class="foods" src="hawaiian.jpg">
+                <img class="foods" src="meat_lovers.jpg">
+                <img class="foods" src="fries.jpg">
+                <img class="foods" src="garlic_bread.jpg">
+                <img class="foods" src="wings.jpg">
+        </div>
+        <!-- Menu Table -->
+        <table class="menu-table">
+            <tr>
+                <th>Pizza</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Margherita</td>
+                <td>$14.99</td>
+            </tr>
+            <tr>
+                <td>Pepperoni</td>
+                <td>$15.99</td>
+            </tr>
+            <tr>
+                <td>Vegetarian</td>
+                <td>$15.99</td>
+            </tr>
+            <tr>
+                <td>Buffalo Chicken</td>
+                <td>$15.99</td>
+            </tr>
+            <tr>
+                <td>Hawaiian</td>
+                <td>$15.99</td>
+            </tr>
+            <tr>
+                <td>Meat Lover's</td>
+                <td>$16.99</td>
+            </tr>
+            <tr>
+                <th>Appetizers</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Fries</td>
+                <td>$6.99</td>
+            </tr>
+            <tr>
+                <td>Breadsticks</td>
+                <td>$8.99</td>
+            </tr>
+            <tr>
+                <td>Garlic Cheese Bread</td>
+                <td>$9.99</td>
+            </tr>
+            <tr>
+                <td>Buffalo Wings</td>
+                <td>$11.99</td>
+            </tr>
+            <!-- Add more menu items -->
+        </table>
+    </main>
+        <footer>
+                <div class="footer">
+                 <a href="doughlicious.html">Location</a>
+                 <a href="contact.html">Contact</a>
+                 <a href="#Media">Media</a>
+                 Telephone: 123-456-7890
+                </div>
+        </footer>
+</body>
+</html>

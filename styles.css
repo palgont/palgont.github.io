@@ -1,0 +1,215 @@
+/* Style Sheet */
+
+body {
+        height: 100%;
+        background-color: #141414;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+}
+.body, html{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+}
+.header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 120px;
+}
+.logo {
+        position: absolute;
+        left: 70px;
+        width: 120px;
+        height:120;
+        top: 45px;
+}
+.header h1 {
+        font-family:'Cherry Bomb One', serif;
+        position: absolute;
+        font-size: 80px;
+        margin: 0px;
+        left: 50%;
+        top: 45px;
+        transform: translateX(-50%);
+        color: rgb(230, 48, 2);
+}
+.content {
+        flex-grow: 1;
+        padding-bottom: 20px;
+}
+.content img{
+        float: left;
+        display: block;
+        width: 500px;
+        height: auto;
+        margin-right: auto;
+        margin-left: 70px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+}
+.end_float{
+        clear: both;
+}
+.content h2 {
+        font-size: 30px;
+        color: #fff;
+        margin-right:70px;
+        margin-left:650px;
+        margin-top:40px;
+
+
+}
+.order_button {
+        margin: 0 auto;
+        text-align: center;
+        display: inline-flex;
+}
+.order_button a {
+        color: #000;
+        background-color: rgb(238, 48, 2);
+        text-decoration: none;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px 20px;
+        margin-top: 20px;
+        margin-left: 300px;
+        vertical-align: middle;
+}
+.order_button a:hover {
+        background-color: #a10303;
+        border-color: #a10303;
+        color: #fff;
+        position: relative;
+        
+}
+.topnav {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 30px;
+        border: 2px ridge black;
+        border-radius: 50px;
+        padding: 10px;
+        background-color: #e1dcdc;
+        align-items: center;
+        position: relative;
+
+}
+.topnav li{      
+        display: inline-block;
+        color: #000;
+        list-style: none;
+}
+.topnav li, a {
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px;
+        padding:10px 20px;
+        margin:0px 10px;
+        font-size: 24px;
+        object-fit: cover;
+        z-index: 1;
+        color: #000;
+}      
+
+.topnav a:hover {
+        background-color: #a10303;
+        border-color: #a10303;
+        color: #fff
+}
+
+@media (max-width:650px)
+{
+        .topnav {
+                flex-direction: column;
+                gap: 10px;
+        }
+        .topnav a {
+                font-size: 20px;
+        }
+        .content h2 {
+                flex-direction: column;
+        }
+}
+.description {
+        color: #fff;
+        font-size: 20px;
+        margin-right:70px;
+        margin-left:650px;
+        margin-top:0px;
+}
+
+.table {
+        margin-left: 650;
+        margin-right: 70px;
+        width: max-content; 
+        margin-top: 80px; 
+        border: 4px solid gray;
+        padding: 15px 15px;
+}
+.table th {
+        color: #fff;
+        text-align: center;
+        padding:15px 15px;
+        font-size: 24;
+}
+.table td {
+        color: #fff;
+        text-align: center;
+        border-color: rgba(255, 255, 255, 0);
+        font-size: 20;
+}
+.footer {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        border-top: 2px solid #fff;
+        padding: 20px;
+        width: 100%;
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        align-items: center;
+}
+.footer a {
+        align-items: center;
+        display: inline-block;
+        font-size: 20px;
+        padding: 5px 10px;
+        border-radius: 4px;
+        margin: 2px 20px;
+        text-decoration: none;
+        color: #fff;
+}
+.footer a:hover {
+        background-color: #a10303;
+        border-color: #a10303;
+        color: #fff
+}
+.menu-table{
+        float: right;
+        border-spacing: 40px;
+        color: #fff;
+        text-align:center;
+        align-items: center;
+        padding: 15px 80px;
+        border: 3px solid #e1dcdc;
+}
+.menu-table th{
+        font-size: 30px;
+
+}
+.menu-table td{
+        font-size: 22px;
+}
